@@ -35,7 +35,7 @@ if total == 7 || total == 11
 elsif total ==2 || total ==3 || total ==12
     puts "You Lose Sucker!"
 else
-    puts "The point is #{total}"
+    puts "The point is" *&  #{total}"
 end
 
 # If the numbers add up to 7 or 11, write a message that reads
